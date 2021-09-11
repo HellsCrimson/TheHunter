@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6151783165681505490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6151783165681505492}
+  - component: {fileID: 6151783165681505491}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6151783165681505492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151783165681505490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6151783165681505491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151783165681505490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dee568930d434249b0604f29c40f605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Click
+    clip: {fileID: 8300000, guid: 433516a584aa6a64b8ce9282fc16f37f, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loopSound: 0
+    group: {fileID: -494303756184194971, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
+  - name: Theme
+    clip: {fileID: 8300000, guid: a6d303566f6462e409f608e15b6f937d, type: 3}
+    volume: 0.2
+    source: {fileID: 0}
+    loopSound: 1
+    group: {fileID: 8968541817208632202, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
+  - name: ShootingAr
+    clip: {fileID: 8300000, guid: 2c4858c7a8dfcf94d858bae8553c15d2, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    loopSound: 0
+    group: {fileID: -494303756184194971, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
+  - name: Reload
+    clip: {fileID: 8300000, guid: 1211302e616302244b26492ffa35d1ea, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    loopSound: 0
+    group: {fileID: -494303756184194971, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
+  - name: LaserGun
+    clip: {fileID: 8300000, guid: 1806286b42f126644adfbe52c43965bb, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    loopSound: 0
+    group: {fileID: -494303756184194971, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
+  - name: Hider
+    clip: {fileID: 8300000, guid: fba84007704562440ad5032901ad5e62, type: 3}
+    volume: 0.1
+    source: {fileID: 0}
+    loopSound: 0
+    group: {fileID: -494303756184194971, guid: 84266bab6d1745b4ea85dac9f0363c70, type: 2}
